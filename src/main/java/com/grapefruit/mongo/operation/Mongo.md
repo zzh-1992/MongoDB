@@ -2,7 +2,7 @@
 ### mac mongo数据路径
     /Users/user/LocalSoftware/mongodata
 
-### mac mongo数据路径
+### mac mongo日志路径
     /Users/user/LocalSoftware/mongolog
 
 
