@@ -60,3 +60,8 @@ spring.data.mongodb.password=1234565
 ```properties
 spring.data.mongodb.uri=mongodb://grapefruit:123456@localhost:27017/grape
 ```
+
+### 多条件查询
+```java
+List<Grapefruit> grapefruits = template.find(new Query(where("id").in("901","801","501").and("address").in("www.123.com")), Grapefruit.class);
+```
